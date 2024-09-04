@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Quick-start development settings - unsuitable for production
@@ -52,11 +52,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'EcoliDetection.urls'
-print(BASE_DIR)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r"C:\Users\ritik\Documents\ecoli-classification\EcoliDetection\DNASequencing\templates"],
+        'DIRS': [os.path.join(BASE_DIR, "DNASequencing","templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
