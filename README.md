@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project focuses on detecting E. coli bacteria using DNA sequencing techniques. The dataset consists of a small portion of DNA encoded into four types of molecules: Adenine (A), Cytosine (C), Guanine (G), and Thymine (T). The goal is to analyze DNA sequences and identify patterns or mutations that indicate the presence of E. coli virus. This project involves Multi Layer Perceptron (MLP) Classifier model. This model is based on Neural Net-Architecture and provides very high peformance with less training time. 
+This project focuses on detecting E. coli virus using DNA sequencing techniques. The dataset consists of a small portion of DNA encoded into four types of molecules: Adenine (A), Cytosine (C), Guanine (G), and Thymine (T). The goal is to analyze DNA sequences and identify patterns or mutations that indicate the presence of E. coli virus. This project involves Multi Layer Perceptron (MLP) Classifier model. This model is based on Neural Net-Architecture and provides very high peformance with less training time. 
 
 A web-based application built with Django is deployed on an AWS EC2 instance for users to input DNA sequences and get predictions.
 
